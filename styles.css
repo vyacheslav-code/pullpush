@@ -6,19 +6,23 @@ body {
     overflow: hidden;
 }
 
-#stripe-image {
+/* #stripe-image {
     position: absolute;
     right: 0;
     height: 100%;
     width: 250%;
-}
+} */
 
 #stripe {
     position: absolute;
-    width: 100%;
+    width: 200%;
     height: 50px;
     bottom: 180px;
-    left:0;
+    left: 0;
+}
+
+svg {
+  height: 50px;
 }
 
 input[type=range] {
@@ -129,22 +133,60 @@ input[type=range]::-webkit-slider-runnable-track {
 span {
     font-family: serif;
     position: absolute;
-    bottom: 190px;
+    bottom: 10px;
     color: white;
     font-size: 2rem;
 }
 
 #text-1 {
-    left: 22%;
+    left: 10%;
+    z-index: 996;
 }
 
 #text-2 {
-    opacity: 0;
-    left: 40%;
+    left: 20%;
+    z-index: 994;
 }
 
 #text-3 {
-    right: 12%;
+    right: 60%;
+    z-index: 996;
 }
 
+#green-arrow {
+  position: absolute;
+  left: -2.6%;
+  z-index: 5;
+  bottom: 0.5px;
+}
 
+#green-stripe {
+  position: absolute;
+  left:0;
+  height: 48px;
+  margin-bottom: 1px;
+  margin-left: -6px;
+ 
+}
+#blue-stripe {
+  height: 48px;
+  margin-bottom: 2px;
+  margin-right: -6px;
+  
+  left: -54.6%;
+}
+
+#blue-arrow {
+  left: -2.6%;
+  
+}
+
+.blue {
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+}
+
+.green {
+  z-index: 995;
+}
