@@ -130,7 +130,7 @@ input[type=range]::-webkit-slider-runnable-track {
 span {
     font-family: serif;
     position: absolute;
-    padding-top: 20px;
+    margin-top: 5px;
     color: white;
     font-size: 2rem;
 }
@@ -159,22 +159,36 @@ span {
   left: -54.5%;
   width: 50%;
   z-index: 999;
+  background: url('img/blue-stripe.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #blue-arrow {
   left: -5.5%;
   width: 6.25%;
+  height: 49.5px;
+  margin-top: 0.5px;
   z-index: 999;
+  background: url('img/blue-arrow.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #green-arrow {
   left: -5.5%;
   width: 4.25%;
   z-index: 995;
+  background: url('img/green-arrow.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #green-stripe {
   left: -2%;
   width: 50%;
   z-index: 994;
+  background: url('img/green-stripe.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
