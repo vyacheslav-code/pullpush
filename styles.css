@@ -3,8 +3,8 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
+    /*overflow: hidden; */
+} 
 
 /* #stripe-image {
     position: absolute;
@@ -15,15 +15,12 @@ body {
 
 #stripe {
     position: absolute;
-    width: 200%;
+    width: 225%;
     height: 50px;
     bottom: 180px;
     left: 0;
 }
 
-svg {
-  height: 50px;
-}
 
 input[type=range] {
     position: absolute;
@@ -133,7 +130,7 @@ input[type=range]::-webkit-slider-runnable-track {
 span {
     font-family: serif;
     position: absolute;
-    bottom: 10px;
+    padding-top: 20px;
     color: white;
     font-size: 2rem;
 }
@@ -145,7 +142,7 @@ span {
 
 #text-2 {
     left: 20%;
-    z-index: 994;
+    z-index: 993;
 }
 
 #text-3 {
@@ -153,40 +150,31 @@ span {
     z-index: 996;
 }
 
-#green-arrow {
+#green-arrow, #blue-arrow, #green-stripe, #blue-stripe {
   position: absolute;
-  left: -2.6%;
-  z-index: 5;
-  bottom: 0.5px;
+  height: 50px;
 }
 
-#green-stripe {
-  position: absolute;
-  left:0;
-  height: 48px;
-  margin-bottom: 1px;
-  margin-left: -6px;
- 
-}
 #blue-stripe {
-  height: 48px;
-  margin-bottom: 2px;
-  margin-right: -6px;
-  
-  left: -54.6%;
-}
-
-#blue-arrow {
-  left: -2.6%;
-  
-}
-
-.blue {
-  position: absolute;
-  bottom: 0;
+  left: -54.5%;
+  width: 50%;
   z-index: 999;
 }
 
-.green {
+#blue-arrow {
+  left: -5.5%;
+  width: 6.25%;
+  z-index: 999;
+}
+
+#green-arrow {
+  left: -5.5%;
+  width: 4.25%;
   z-index: 995;
+}
+
+#green-stripe {
+  left: -2%;
+  width: 50%;
+  z-index: 994;
 }

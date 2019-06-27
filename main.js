@@ -11,23 +11,23 @@ const speed = 0.53;
 
 slider.addEventListener('mousemove', function () {
     const value = slider.value;
-    blueStripe.style.left = `${speed*slider.value - 54.6}%`;
-    blueArrow.style.left = `${speed*slider.value - 2.6}%`;
-    greenStripe.style.left = `${speed*slider.value}%`;
-    greenArrow.style.left = `${speed*slider.value - 2.6}%`;
+    blueStripe.style.left = `${speed*slider.value - 54.5}%`;
+    blueArrow.style.left = `${speed*slider.value - 5.5}%`;
+    greenStripe.style.left = `${speed*slider.value - 2}%`;
+    greenArrow.style.left = `${speed*slider.value - 5.5}%`;
     if(value > 31 && value < 60) {
         text1.style.zIndex = '0';
         text2.style.zIndex = '996';
         text3.style.zIndex = '999';
         greenArrow.style.zIndex = '998';
-        greenStripe.style.zIndex = '998';
+        greenStripe.style.zIndex = '997';
         blueArrow.style.zIndex = '995';
         blueStripe.style.zIndex = '995';
     } else if(value >= 60) {
         text2.style.zIndex = '999';
         text3.style.zIndex = '996';
         greenArrow.style.zIndex = '995';
-        greenStripe.style.zIndex = '995';
+        greenStripe.style.zIndex = '994';
         blueArrow.style.zIndex = '998';
         blueStripe.style.zIndex = '998';
     } else {
