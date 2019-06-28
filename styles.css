@@ -162,8 +162,8 @@ span {
   background: url('img/blue-stripe.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  top: -2px;
-  height: 52px;
+  top: -0.5px;
+  height: 50.5px;
 }
 
 #blue-arrow {
