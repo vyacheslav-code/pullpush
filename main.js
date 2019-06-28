@@ -12,7 +12,7 @@ const speed = 0.53;
 slider.addEventListener('mousemove', function () {
     const value = slider.value;
     blueStripe.style.left = `${speed*slider.value - 54.5}%`;
-    blueArrow.style.left = `${speed*slider.value - 5.5}%`;
+    blueArrow.style.left = `${speed*slider.value - 5.75}%`;
     greenStripe.style.left = `${speed*slider.value - 2}%`;
     greenArrow.style.left = `${speed*slider.value - 5.5}%`;
     if(value > 31 && value < 60) {
