@@ -167,7 +167,7 @@ span {
 }
 
 #blue-arrow {
-  left: -5.75%;
+  left: -6%;
   width: 6.25%;
   margin-top: -0.25px;
   z-index: 999;
@@ -177,7 +177,7 @@ span {
 }
 
 #green-arrow {
-  left: -5.5%;
+  left: -5.25%;
   width: 4.25%;
   z-index: 995;
   background: url('img/green-arrow.svg');
